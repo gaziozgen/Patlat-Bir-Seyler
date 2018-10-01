@@ -1,0 +1,61 @@
+body  {
+    background-image: url("../images/background.png");
+    background-size: 100%;
+    font-family: 'Pacifico', cursive;
+}
+
+.kesfet{
+    width:200px; 
+    height:200px; 
+    border-radius: 50%; 
+    font-size:40px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.kesfet:hover {
+    background-color: #073559;
+    color: white;
+}
+
+.ekle {
+    background-color: #073559;
+    color: white;
+    font-size: 25px;
+}
+
+.ekle:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.kategori {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #333;;
+    border: 2px solid white;
+}
+
+.kategori:hover {
+    border: dotted #333;
+}
+
+.ktgricon {
+    font-size: 60px;
+}
+
+h1 {
+    color: white; 
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    color: yellow;
+}

@@ -1,0 +1,87 @@
+<h1> Geliyoooor... </h1>
+<button class="btn kategori" style="width: 240px; height: 240px; margin-bottom: 30px;">
+<% if(kategori == "enerjik"){%>
+<i class="fas ktgricon fa-bolt" style="color: #FEFB00; font-size: 120px;" ></i>
+<%}%>
+<% if(kategori == "dram"){%>
+<i class="fas ktgricon fa-tint" style="color: #06B9CF; font-size: 120px;" ></i>
+<%}%>
+<% if(kategori == "ask"){%>
+<i class="fas ktgricon fa-heart" style="color: #F0121F; font-size: 120px;" ></i>
+<%}%>
+<% if(kategori == "anarsik"){%>
+<i class="fas ktgricon fa-skull" style="color: white; font-size: 120px;" ></i>
+<%}%>
+<% if(kategori == "alternatif"){%>
+<i class="fas ktgricon fa-music" style="color: #80F221; font-size: 120px;" ></i>
+<%}%>
+<% if(kategori == "rastgele"){%>
+<i class="fas ktgricon fa-question" style="color: #824ED2; font-size: 120px;" ></i>
+<%}%>
+</button>
+<div id=lcer class="progress" style="border: solid 2px white; width: 100%; height: 30px;">
+    
+    <% if(kategori == "enerjik"){%>
+    <div id="lbar" class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #FEFB00;"></div>
+    <%}%>
+
+    <% if(kategori == "dram"){%>
+    <div id="lbar" class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #06B9CF;"></div>
+    <%}%>
+
+    <% if(kategori == "ask"){%>
+    <div id="lbar" class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #F0121F;"></div>
+    <%}%>
+
+    <% if(kategori == "anarsik"){%>
+    <div id="lbar" class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: grey;"></div>
+    <%}%>
+
+    <% if(kategori == "alternatif"){%>
+    <div id="lbar" class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #80F221;"></div>
+    <%}%>
+
+    <% if(kategori == "rastgele"){%>
+    <div id="lbar" class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #824ED2;"></div>
+    <%}%>
+
+</div>
+
+<script>
+    $(document).ready(function(){
+        $("#lbar").css("width", "0%");
+        $("#lbar").css("width", "100%");
+        setTimeout(function(){ 
+
+            <% if(kategori == "enerjik"){%>
+                window.location.href='/tavsiye/g/enerjik';
+            <%}%>
+
+            <% if(kategori == "dram"){%>
+                window.location.href='/tavsiye/g/dram';
+            <%}%>
+
+            <% if(kategori == "ask"){%>
+                window.location.href='/tavsiye/g/ask';
+            <%}%>
+
+            <% if(kategori == "anarsik"){%>
+                window.location.href='/tavsiye/g/anarsik';
+            <%}%>
+
+            <% if(kategori == "alternatif"){%>
+                window.location.href='/tavsiye/g/alternatif';
+            <%}%>
+
+            <% if(kategori == "rastgele"){%>
+                window.location.href='/tavsiye/g/rastgele';
+            <%}%>
+
+
+             
+            }, 1000);
+        
+    });
+
+</script>
+
