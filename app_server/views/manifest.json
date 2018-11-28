@@ -1,0 +1,16 @@
+{
+    "name": "Devnot – Yazılımcının Magazini",
+    "short_name": "Devnot",
+    "icons": [
+       {
+          "src": "devnot.png",
+          "type": "image/PNG",
+          "sizes": "144x144"
+       }
+    ],
+ 
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#282828"
+ }
