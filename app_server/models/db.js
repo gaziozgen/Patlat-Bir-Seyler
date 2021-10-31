@@ -2,7 +2,7 @@ var mongoose = require("mongoose");
 
 mongoose.Promise = require("bluebird");
 
-var mongoDB = "mongodb://Grablack:Gg123456@ds115353.mlab.com:15353/patlatbiseyler";
+var mongoDB = "access_keyyyyy";
 
 mongoose.connect(mongoDB,{ useNewUrlParser: true },function(err,error){
     if(err){
